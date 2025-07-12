@@ -30,7 +30,7 @@ function Home() {
         <div className="relative w-64 h-64 lg:w-80 lg:h-80 flex-shrink-0 mb-8 ml-14 mt-10 lg:mb-0 lg:mr-8">
           <div className="absolute inset-0 bg-red-500 rounded-full transform scale-110"></div>
           <img
-            src="pic1-removebg-preview.jpg" // Replace this with your profile image URL
+            src="{`${process.env.PUBLIC_URL}pic1-removebg-preview.jpg`} // Replace this with your profile image URL
             alt="Profile"
             className="relative w-full h-full object-cover rounded-full"
           />
